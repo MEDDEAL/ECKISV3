@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="data.js" defer></script>
+<script src="app.js" defer></script>
+
+<title>ECKIS WIRTSHAUS – Moderne Restaurant-Website</title>
+<meta name="description" content="Moderne, helle Website für Eckis Wirtshaus in Hannover mit Reservierungsbutton, Menü-Seite, Kontakt und Öffnungszeiten.">
+</head>
+<body>
+  <div data-header></div>
+  <main>
+    <div data-home-hero></div>
+    <div data-home-intro></div>
+    <div data-home-kitchen></div>
+    <div data-home-gallery></div>
+    <div data-home-menu></div>
+    <div data-home-reservation></div>
+    <div data-home-contact></div>
+  </main>
+  <div data-footer></div>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      EckisSite.renderHeader('home');
+      EckisSite.renderHome();
+    });
+  </script>
+</body>
+</html>

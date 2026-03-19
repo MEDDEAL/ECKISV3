@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F7F3EC"/>
+<stop offset="1" stop-color="#E6E0D4"/>
+</linearGradient>
+</defs>
+<rect width="1600" height="1000" rx="28" fill="url(#g)"/>
+<rect x="80" y="80" width="1440" height="840" rx="24" stroke="#8E8264" stroke-dasharray="16 16" stroke-width="4"/>
+<circle cx="800" cy="390" r="92" fill="#D7CCB8"/>
+<path d="M680 640c34-92 110-138 120-138s86 46 120 138" fill="#D7CCB8"/>
+<text x="800" y="760" text-anchor="middle" fill="#4D4B37" font-size="62" font-family="Arial, Helvetica, sans-serif" font-weight="700">PDF-Menü</text>
+<text x="800" y="822" text-anchor="middle" fill="#6C644E" font-size="30" font-family="Arial, Helvetica, sans-serif">Platzhalter für eingebundene Speisekarte</text>
+</svg>
